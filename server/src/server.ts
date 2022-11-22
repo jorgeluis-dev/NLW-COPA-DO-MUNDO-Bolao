@@ -31,7 +31,7 @@ async function bootstrap(){
 
 
 
-   await fasfity.listen({ port: 3333, host: '0.0.0.0' })     
+   await fasfity.listen({ port: 3333, /*host: '0.0.0.0'*/ })     
 }
 
 bootstrap();
